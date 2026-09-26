@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recovagen — Shell Yeah!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="nav-logo">RECOVAGEN</div>
+      <div class="nav-links">
+        <a href="#science">Science</a>
+        <a href="#benefits">Benefits</a>
+        <a href="#sourcing">Sourcing</a>
+        <a href="#product" class="nav-cta">Get Early Access</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 1. Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orbs">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge fade-in">
+        <span class="badge-dot"></span>
+        Advanced Sports Recovery
+      </div>
+      <h1 class="hero-title fade-in delay-1">RECOVAGEN</h1>
+      <div class="hero-slogan fade-in delay-2">Shell Yeah!</div>
+      <p class="hero-tagline fade-in delay-3">
+        Next-gen collagen recovery.<br />
+        Sourced from nature. Engineered for performance.
+      </p>
+      <a href="#product" class="hero-btn fade-in delay-4">
+        <span>Coming Soon</span>
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <div class="hero-metrics fade-in delay-4">
+        <div class="metric">
+          <span class="metric-val">3×</span>
+          <span class="metric-label">Higher Bioavailability</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-val">Type I–III</span>
+          <span class="metric-label">Full Collagen Spectrum</span>
+        </div>
+        <div class="metric-divider"></div>
+        <div class="metric">
+          <span class="metric-val">100%</span>
+          <span class="metric-label">Natural Source</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- 2. Science -->
+  <section class="science section" id="science">
+    <div class="container">
+      <div class="section-label fade-up">Molecular Biology</div>
+      <h2 class="section-title fade-up">The Science Behind Recovagen</h2>
+      <p class="section-sub fade-up">
+        Soft-shell turtle collagen delivers the complete peptide matrix your body craves — all three structural collagen types in a single, highly bioavailable source.
+      </p>
+
+      <div class="collagen-types fade-up">
+        <div class="collagen-card">
+          <div class="collagen-icon" style="color:#00d4aa;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M10 16c0-3.3 2.7-6 6-6s6 2.7 6 6-2.7 6-6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="16" cy="16" r="2" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Type I Collagen</h3>
+          <p>The most abundant collagen in the body. Critical for tendon integrity, bone matrix, and skin elasticity. Recovagen delivers the highest concentration of Type I peptides for accelerated structural repair.</p>
+          <div class="collagen-bar"><div class="collagen-fill" style="width:85%; background:#00d4aa;"></div></div>
+          <span class="collagen-pct">85% of total collagen</span>
+        </div>
+        <div class="collagen-card">
+          <div class="collagen-icon" style="color:#7c3aed;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M8 24c0-8 4-16 8-16s8 8 8 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M12 24c0-4 2-10 4-10s4 6 4 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Type II Collagen</h3>
+          <p>The primary component of cartilage. Essential for joint cushioning, flexibility, and long-term mobility. Unique to soft-shell turtle vs. bovine sources — your joints will notice the difference.</p>
+          <div class="collagen-bar"><div class="collagen-fill" style="width:55%; background:#7c3aed;"></div></div>
+          <span class="collagen-pct">Significant cartilage fraction</span>
+        </div>
+        <div class="collagen-card">
+          <div class="collagen-icon" style="color:#06b6d4;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <rect x="8" y="8" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 16h16M16 8v16" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <h3>Type III Collagen</h3>
+          <p>Works synergistically with Type I to form reticular fibers. Found in skin, blood vessels, and gut lining. Key to connective tissue health and vascular recovery after intense training.</p>
+          <div class="collagen-bar"><div class="collagen-fill" style="width:40%; background:#06b6d4;"></div></div>
+          <span class="collagen-pct">Reticular fiber support</span>
+        </div>
+      </div>
+
+      <!-- Amino Acid Chart -->
+      <div class="chart-wrapper fade-up">
+        <div class="chart-header">
+          <h3>Amino Acid Profile Comparison</h3>
+          <p>Key amino acids per 10g serving — Recovagen vs. leading collagen sources</p>
+        </div>
+        <div class="chart-legend">
+          <span class="legend-item"><span class="legend-dot" style="background:#00d4aa;"></span>Recovagen</span>
+          <span class="legend-item"><span class="legend-dot" style="background:#7c3aed;"></span>Bovine Collagen</span>
+          <span class="legend-item"><span class="legend-dot" style="background:#06b6d4;"></span>Marine Collagen</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="aminoChart"></canvas>
+        </div>
+      </div>
+
+      <!-- Bioavailability callout -->
+      <div class="bio-callout fade-up">
+        <div class="bio-number">3×</div>
+        <div class="bio-text">
+          <strong>Superior Bioavailability</strong>
+          <p>Enzymatically hydrolyzed peptides averaging 2–5 kDa molecular weight — small enough for direct intestinal absorption without further digestion. Measurable plasma amino acid elevation within 60 minutes of ingestion.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. Benefits -->
+  <section class="benefits section" id="benefits">
+    <div class="container">
+      <div class="section-label fade-up">Performance Edge</div>
+      <h2 class="section-title fade-up">What Recovagen Does For You</h2>
+
+      <div class="benefits-grid">
+        <!-- Card 1 -->
+        <div class="benefit-card fade-up">
+          <div class="benefit-icon-wrap" style="--accent:#00d4aa;">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 4l2.5 7.5H24l-6 4.5 2.5 7.5L14 19l-6.5 4.5 2.5-7.5L4 11.5h7.5L14 4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Rapid Recovery</h3>
+          <p>Replenish the collagen matrix broken down during training. Recovagen's hydrolyzed peptides signal fibroblast activity, accelerating tissue regeneration and reducing next-day soreness by up to 40%.</p>
+          <ul class="benefit-bullets">
+            <li>Reduced DOMS onset</li>
+            <li>Faster micro-tear repair</li>
+            <li>24hr recovery window support</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="benefit-card fade-up delay-1">
+          <div class="benefit-icon-wrap" style="--accent:#7c3aed;">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <circle cx="14" cy="14" r="10" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M14 9v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M9 14a5 5 0 0 1 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Joint Support</h3>
+          <p>Type II collagen peptides directly integrate into articular cartilage, improving lubrication, shock absorption, and range of motion — critical for athletes logging heavy volume on knees and shoulders.</p>
+          <ul class="benefit-bullets">
+            <li>Cartilage matrix reinforcement</li>
+            <li>Synovial fluid optimization</li>
+            <li>Long-term joint longevity</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="benefit-card fade-up delay-2">
+          <div class="benefit-icon-wrap" style="--accent:#06b6d4;">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 4C9 4 5 8 5 13c0 6 9 11 9 11s9-5 9-11c0-5-4-9-9-9z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              <path d="M14 10v4l2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Skin &amp; Connective Tissue</h3>
+          <p>Types I and III collagen work together to restore skin firmness and elasticity while strengthening tendons, ligaments, and fascia throughout the body. Look as recovered as you feel.</p>
+          <ul class="benefit-bullets">
+            <li>Dermal collagen density</li>
+            <li>Tendon &amp; ligament resilience</li>
+            <li>Fascia integrity support</li>
+          </ul>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="benefit-card fade-up delay-3">
+          <div class="benefit-icon-wrap" style="--accent:#f59e0b;">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none">
+              <path d="M14 4v20M4 14h20" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M7 7l14 14M21 7L7 21" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-dasharray="2 3"/>
+            </svg>
+          </div>
+          <h3>Performance Optimization</h3>
+          <p>Glycine-rich collagen fuels creatine synthesis while Hydroxyproline supports mitochondrial function. More energy, better force output, and cleaner neural signaling under load.</p>
+          <ul class="benefit-bullets">
+            <li>Creatine pathway support</li>
+            <li>Mitochondrial efficiency</li>
+            <li>Force-production enhancement</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. Sourcing -->
+  <section class="sourcing section" id="sourcing">
+    <div class="container">
+      <div class="sourcing-inner">
+        <div class="sourcing-text">
+          <div class="section-label fade-up">Origin &amp; Integrity</div>
+          <h2 class="section-title fade-up">Where Science Meets Tradition</h2>
+          <p class="fade-up">
+            <em>Pelodiscus sinensis</em> — the Chinese soft-shell turtle — has been a cornerstone of traditional Chinese medicine for over 2,000 years, prized for its exceptional collagen density and restorative properties.
+          </p>
+          <p class="fade-up">
+            Recovagen sources exclusively from certified sustainable aquaculture farms in Guangdong and Zhejiang provinces. Every batch is tested for heavy metals, pesticides, and pathogen markers before processing begins.
+          </p>
+          <div class="sourcing-pillars fade-up">
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 2l1.8 5.5H18l-4.9 3.6 1.8 5.5L10 13l-4.9 3.6 1.8-5.5L2 7.5h6.2L10 2z" stroke="#00d4aa" stroke-width="1.2"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Certified Aquaculture</strong>
+                <span>No wild capture. Closed-loop farming with full traceability from pond to powder.</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path d="M10 18s-8-4.5-8-10a8 8 0 0 1 16 0c0 5.5-8 10-8 10z" stroke="#00d4aa" stroke-width="1.2"/>
+                  <path d="M10 7v3l2 2" stroke="#00d4aa" stroke-width="1.2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div>
+                <strong>TCM Heritage</strong>
+                <span>2,000+ years of empirical use, now validated by modern biochemical analysis.</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <rect x="3" y="3" width="14" height="14" rx="2" stroke="#00d4aa" stroke-width="1.2"/>
+                  <path d="M7 10l2 2 4-4" stroke="#00d4aa" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Third-Party Tested</strong>
+                <span>NSF-aligned testing for contaminants, purity, and peptide molecular weight verification.</span>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <circle cx="10" cy="10" r="7" stroke="#00d4aa" stroke-width="1.2"/>
+                  <path d="M10 6v4l3 2" stroke="#00d4aa" stroke-width="1.2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div>
+                <strong>Low-Temp Hydrolysis</strong>
+                <span>Enzymatic processing under 60°C preserves peptide structure and bioactive potency.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sourcing-visual fade-up">
+          <div class="turtle-graphic">
+            <div class="turtle-shell">
+              <svg viewBox="0 0 300 260" fill="none" xmlns="http://www.w3.org/2000/svg" class="turtle-svg">
+                <!-- Body -->
+                <ellipse cx="150" cy="140" rx="100" ry="80" fill="#0d2a1e" stroke="#00d4aa" stroke-width="1.5" opacity="0.9"/>
+                <!-- Shell pattern - hexagons -->
+                <polygon points="150,85 165,94 165,112 150,121 135,112 135,94" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.6"/>
+                <polygon points="115,105 130,114 130,132 115,141 100,132 100,114" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.5"/>
+                <polygon points="185,105 200,114 200,132 185,141 170,132 170,114" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.5"/>
+                <polygon points="150,125 165,134 165,152 150,161 135,152 135,134" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.5"/>
+                <polygon points="115,145 130,154 130,172 115,181 100,172 100,154" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.4"/>
+                <polygon points="185,145 200,154 200,172 185,181 170,172 170,154" fill="none" stroke="#00d4aa" stroke-width="1" opacity="0.4"/>
+                <!-- Head -->
+                <ellipse cx="150" cy="68" rx="22" ry="18" fill="#0d2a1e" stroke="#00d4aa" stroke-width="1.5"/>
+                <circle cx="144" cy="63" r="3" fill="#00d4aa" opacity="0.8"/>
+                <circle cx="156" cy="63" r="3" fill="#00d4aa" opacity="0.8"/>
+                <!-- Neck -->
+                <path d="M138 82 Q145 90 150 92 Q155 90 162 82" stroke="#00d4aa" stroke-width="1.5" fill="none"/>
+                <!-- Flippers -->
+                <ellipse cx="62" cy="110" rx="28" ry="12" fill="#0d2a1e" stroke="#00d4aa" stroke-width="1.5" transform="rotate(-20,62,110)"/>
+                <ellipse cx="238" cy="110" rx="28" ry="12" fill="#0d2a1e" stroke="#00d4aa" stroke-width="1.5" transform="rotate(20,238,110)"/>
+                <ellipse cx="70" cy="185" rx="24" ry="10" fill="#0d2a1e" stroke="#00d4aa" stroke-width="1.5" transform="rotate(20,70,185)"/>
+                <ellipse cx="230" cy="185" rx="24" ry="10" fill="#0d2a1e" stroke="#00d4aa" stroke-width="1.5" transform="rotate(-20,230,185)"/>
+                <!-- Tail -->
+                <path d="M150 218 Q155 230 152 245" stroke="#00d4aa" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <!-- Glow rings -->
+                <ellipse cx="150" cy="140" rx="110" ry="90" fill="none" stroke="#00d4aa" stroke-width="0.5" opacity="0.2"/>
+                <ellipse cx="150" cy="140" rx="125" ry="105" fill="none" stroke="#00d4aa" stroke-width="0.3" opacity="0.1"/>
+              </svg>
+            </div>
+            <div class="turtle-label">
+              <span class="turtle-scientific">Pelodiscus sinensis</span>
+              <span class="turtle-common">Chinese Soft-Shell Turtle</span>
+            </div>
+          </div>
+          <div class="sourcing-data">
+            <div class="sdata-item">
+              <span class="sdata-val">18g</span>
+              <span class="sdata-key">Collagen per 100g tissue</span>
+            </div>
+            <div class="sdata-item">
+              <span class="sdata-val">2–5 kDa</span>
+              <span class="sdata-key">Peptide molecular weight</span>
+            </div>
+            <div class="sdata-item">
+              <span class="sdata-val">9 EAAs</span>
+              <span class="sdata-key">Including all essential aminos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Product / Signup -->
+  <section class="product section" id="product">
+    <div class="container">
+      <div class="product-inner">
+        <div class="product-badge fade-up">
+          <span class="badge-dot pulse"></span>
+          Launching Soon
+        </div>
+        <h2 class="product-title fade-up">RECOVAGEN</h2>
+        <p class="product-sub fade-up">Premium Collagen Recovery Powder</p>
+        <p class="product-desc fade-up">
+          Be first to experience the future of sports recovery. Join the waitlist for early access, exclusive launch pricing, and founding-member benefits.
+        </p>
+
+        <form class="signup-form fade-up" id="signupForm">
+          <div class="form-row">
+            <input type="text" placeholder="First name" class="form-input" required />
+            <input type="email" placeholder="Email address" class="form-input" required />
+            <button type="submit" class="form-btn">
+              <span>Join Waitlist</span>
+              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </div>
+          <p class="form-note">No spam. Early access pricing. Unsubscribe anytime.</p>
+        </form>
+
+        <div class="product-features fade-up">
+          <div class="pf-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M3 8l3 3 7-7" stroke="#00d4aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>30g collagen per serving</span>
+          </div>
+          <div class="pf-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M3 8l3 3 7-7" stroke="#00d4aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>Unflavored &amp; mixes clean</span>
+          </div>
+          <div class="pf-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M3 8l3 3 7-7" stroke="#00d4aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>No fillers, no sweeteners</span>
+          </div>
+          <div class="pf-item">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M3 8l3 3 7-7" stroke="#00d4aa" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>NSF-aligned testing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-logo">RECOVAGEN</span>
+          <span class="footer-slogan">Shell Yeah!</span>
+        </div>
+        <div class="footer-links">
+          <a href="#science">Science</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#sourcing">Sourcing</a>
+          <a href="#product">Early Access</a>
+        </div>
+        <div class="footer-copy">
+          &copy; 2026 Recovagen. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
