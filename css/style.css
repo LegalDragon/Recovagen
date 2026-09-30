@@ -820,3 +820,105 @@ body {
   .footer-links { justify-content: center; }
   .bio-callout { flex-direction: column; gap: 1rem; }
 }
+
+/* ---- HERO LAB IMAGE ---- */
+.hero-lab-image {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+.hero-lab-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  opacity: 0.18;
+  filter: saturate(0.6) hue-rotate(160deg);
+}
+.hero-lab-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom,
+    rgba(10,10,15,0.3) 0%,
+    rgba(10,10,15,0.0) 40%,
+    rgba(10,10,15,0.5) 80%,
+    rgba(10,10,15,1) 100%);
+}
+
+/* ---- SCIENCE PHOTO ---- */
+.science-photo {
+  margin: 3rem 0;
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 60px rgba(0,212,170,0.08);
+}
+.science-photo img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  display: block;
+  filter: saturate(1.1) brightness(0.9);
+}
+.science-photo-label {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 0.75rem 1.25rem;
+  background: linear-gradient(to top, rgba(10,10,15,0.9) 0%, transparent 100%);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--teal);
+  font-weight: 600;
+}
+
+/* ---- FARM PHOTO (Sourcing) ---- */
+.farm-photo {
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 60px rgba(0,212,170,0.08);
+  margin-bottom: 1.5rem;
+}
+.farm-photo img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.85) saturate(1.1);
+  transition: transform 0.6s ease;
+}
+.farm-photo:hover img { transform: scale(1.03); }
+.farm-photo-caption {
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  padding: 0.75rem 1.25rem;
+  background: linear-gradient(to top, rgba(10,10,15,0.85) 0%, transparent 100%);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+/* ---- PRODUCT CANISTER IMAGE ---- */
+.product-canister-image {
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+}
+.product-canister-image img {
+  width: 340px;
+  max-width: 90%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0 0 80px rgba(0,212,170,0.15), 0 20px 60px rgba(0,0,0,0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.product-canister-image img:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 0 120px rgba(0,212,170,0.25), 0 30px 80px rgba(0,0,0,0.6);
+}
